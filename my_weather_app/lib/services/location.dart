@@ -5,8 +5,6 @@ class Location {
   double latitude;
   double longitude;
 
-  //Location(this.latitude, this.longitude);
-
   Future<void> getCurrentLocation() async {
     try {
       Position position = await Geolocator.getCurrentPosition(
@@ -55,7 +53,7 @@ class Location {
       return Future.error(
           'Location permissions are permanently denied, we cannot request permissions.');
     }
-    Position Huaweiposition = await Geolocator.getCurrentPosition(forceAndroidLocationManager: true);
+    // Position Huaweiposition = await Geolocator.getCurrentPosition(forceAndroidLocationManager: true);
 // print(Huaweiposition); -- possible Huawei fix?
 
     try {

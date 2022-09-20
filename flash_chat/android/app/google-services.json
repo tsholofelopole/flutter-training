@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "26270028465",
+    "project_id": "flash-chat-4951c",
+    "storage_bucket": "flash-chat-4951c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26270028465:android:4d0c47297149dff9370890",
+        "android_client_info": {
+          "package_name": "com.tsholo.flash_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "26270028465-f54efg6k2c58i661ke417d5o7qis5f25.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfW-cS2rZjcJ-pk0ahQdM8wH_h5-2pHmM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "26270028465-f54efg6k2c58i661ke417d5o7qis5f25.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

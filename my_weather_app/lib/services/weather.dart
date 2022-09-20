@@ -8,7 +8,7 @@ String openWeatherApiUrl = 'https://api.openweathermap.org/data/2.5/weather';
 class WeatherModel {
 
   Future<dynamic> getLocationWeather() async {
-    await location.getLocation();
+    await location.getCurrentLocation();
 
     NetworkHelper networkHelper = NetworkHelper('$openWeatherApiUrl?lat=${location.latitude}&lon=${location.longitude}&appid=$apiKey&units=metric');
 
