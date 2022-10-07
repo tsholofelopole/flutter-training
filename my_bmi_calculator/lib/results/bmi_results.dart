@@ -67,23 +67,3 @@ class BmiResultsPage extends StatelessWidget {
     );
   }
 }
-
-// child: Container(
-// margin: EdgeInsets.all(10.0),
-// decoration: BoxDecoration(
-// color: kActiveCardColour,
-// borderRadius: BorderRadius.circular(10.0),
-// ),
-// child: Column(
-// mainAxisAlignment: MainAxisAlignment.center,
-// crossAxisAlignment: CrossAxisAlignment.stretch,
-// children: <Widget>[
-// Center(child: Text('OVERWEIGHT', style: kBmiResultTextStyle)),
-// SizedBox(height: 50,),
-// Center(child: Text(weight.toString(), style: kBmiResultValueTextStyle,)),
-// SizedBox(height: 50,),
-// Center(child: Text(bmiFeedback)),
-//
-// ],
-// ),
-// ),

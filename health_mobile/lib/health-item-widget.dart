@@ -3,13 +3,13 @@ import 'package:flutter/material.dart';
 import 'health-item-text-widget.dart';
 import 'health-item-widget-type.dart';
 
-const discoveryBlue = Color(0xFF003979);
 
 class HealthItemWidget extends StatelessWidget {
 
   final IconData iconData;
   final String itemText;
   final health_item_type type;
+  // Future<Image?> onPressed;
   HealthItemWidget(this.iconData, this.itemText, this.type);
 
   Icon createIcon() {
@@ -24,11 +24,7 @@ class HealthItemWidget extends StatelessWidget {
   Widget build(BuildContext context) {
 
     return TextButton(
-        onPressed: () {
-      // setState(() {
-      //
-      // });
-    },
+        onPressed: (){},
       style: TextButton.styleFrom(padding: EdgeInsets.zero,
         minimumSize: Size(50, 30),
         tapTargetSize: MaterialTapTargetSize.shrinkWrap,),
